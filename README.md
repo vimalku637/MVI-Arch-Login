@@ -18,16 +18,19 @@ This project demonstrates a simple **Login Screen** built using the **Model-View
 ## 🧱 Project Structure
 
 ├── model
-│ ├── LoginIntent.kt # Defines user actions (Intents)
-│ ├── LoginState.kt # Represents screen state
-│ ├── LoginRequest.kt # API request data class
+  - LoginIntent.kt # Defines user actions (Intents)
+  - LoginState.kt # Represents screen state
+  - LoginRequest.kt # API request data class
+    
 ├── retrofitApi
-│ ├── AuthApi.kt # Retrofit interface
-│ ├── RetrofitInstance.kt # Retrofit singleton
+  - AuthApi.kt # Retrofit interface
+  - RetrofitInstance.kt # Retrofit singleton
+    
 ├── view
-│ ├── LoginScreen.kt # Jetpack Compose UI
+  - LoginScreen.kt # Jetpack Compose UI
+    
 ├── viewmodel
-│ ├── LoginViewModel.kt # Handles business logic and emits state
+  - LoginViewModel.kt # Handles business logic and emits state
 
 ## 🧪 API Format
 
